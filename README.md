@@ -13,7 +13,7 @@ REST API гифок - https://developers.giphy.com/docs/api#quick-start-guide
 
 2.Build docker container: docker build -t alfa-test .
 
-3.Run docker container: docker run 8100:8100 alfa-test
+3.Run docker container: docker run -p 8100:8100 alfa-test
 
 # Endpoints
 http://localhost:8100/api/gif?base=afd
